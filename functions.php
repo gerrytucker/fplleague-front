@@ -120,7 +120,7 @@ add_filter( 'login_headertitle', 'login_url_text' );
 function print_front_styles() {
 
 	wp_enqueue_style( 'fplleague-style', get_stylesheet_uri() );
-	wp_enqueue_script( 'fplleague-app', get_template_directory_uri() . '/app.min.js', array('jquery'), false, true );
+	wp_enqueue_script( 'fplleague-app', get_template_directory_uri() . '/fplleague.js', array('jquery'), false, true );
 
 }
 add_action( 'wp_enqueue_scripts', 'print_front_styles' );
