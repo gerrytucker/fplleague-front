@@ -11,7 +11,7 @@ add_action('login_head', 'add_favicon');
 add_action('admin_head', 'add_favicon');
 
 function wp_authenticate_email( $username ) {
-    $user = get_user_by_email( $username );
+    $user = get_user_by( 'email', $username );
     if ( ! empty( $user->user_login ) ) {
         $username = $user->user_login;
     }
