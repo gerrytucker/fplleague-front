@@ -3,24 +3,25 @@
 <html lang="en" class="no-js">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- For non-Retina (@1× display) iPhone, iPod Touch, and Android 2.1+ devices: -->
-        <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon.png"><!-- 57×57px -->
-        <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
-        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-72x72.png">
-        <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
-        <link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-76x76.png">
-        <!-- For iPhone with @2× display running iOS ≤ 6: -->
-        <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-114x114.png">
-        <!-- For iPhone with @2× display running iOS ≥ 7: -->
-        <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-120x120.png">
-        <!-- For iPad with @2× display running iOS ≤ 6: -->
-        <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-144x144.png">
-        <!-- For iPad with @2× display running iOS ≥ 7: -->
-        <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-152x152.png">
-        <!-- For iPhone 6 Plus with @3× display: -->
-        <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-180x180.png">
-        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- For non-Retina (@1× display) iPhone, iPod Touch, and Android 2.1+ devices: -->
+		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon.png"><!-- 57×57px -->
+		<!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-72x72.png">
+		<!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+		<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-76x76.png">
+		<!-- For iPhone with @2× display running iOS ≤ 6: -->
+		<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-114x114.png">
+		<!-- For iPhone with @2× display running iOS ≥ 7: -->
+		<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-120x120.png">
+		<!-- For iPad with @2× display running iOS ≤ 6: -->
+		<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-144x144.png">
+		<!-- For iPad with @2× display running iOS ≥ 7: -->
+		<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-152x152.png">
+		<!-- For iPhone 6 Plus with @3× display: -->
+		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-180x180.png">
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
 		<title><?php wp_title('|', true, 'right'); ?></title>
 
 	<?php wp_head(); ?>
