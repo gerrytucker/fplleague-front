@@ -4,7 +4,7 @@
  * Description: The On The Eight Ball WordPress theme for Flegg Pool League.
  * Author: Gerry Tucker
  * Author URI: http://gerrytucker.co.uk/
- * Version: 1.15.0
+ * Version: 1.16.0
  * Text-Domain: on-the-eight-ball
  * GitHub Theme URI: https://github.com/gerrytucker/fplleague-front
  * GitHub Branch: develop
@@ -40,6 +40,11 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important; }
 
 meta.foundation-version {
   font-family: "/5.4.7/"; }
